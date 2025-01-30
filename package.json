@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@balldontlie/sdk": "^1.2.2",
     "@shadcn/ui": "^0.0.4",
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
