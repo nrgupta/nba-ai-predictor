@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Fri Jan 31 2025 06:12:39 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="nba-8148c1.webflow.io" data-wf-page="679c69991f44d535f900b9d5"
+    data-wf-site="679c69981f44d535f900b987" data-wf-status="1">
+
+<head>
+    <meta charset="utf-8" />
+    <title>NBA Insights</title>
+    <meta content="NBA Insights" property="og:title" />
+    <meta content="NBA Insights" property="twitter:title" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Webflow" name="generator" />
+    <link href="./landing.css"
+        rel="stylesheet" type="text/css" />
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <link href="https://cdn.prod.website-files.com/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://cdn.prod.website-files.com/img/webclip.png" rel="apple-touch-icon" />
+    <style>
+        /* --- Font Smoothing --- */
+        body {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div data-w-id="7392a2d2-e2cf-5cad-069a-b7a3d9846baa"
+            style="-webkit-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+            class="nav_wrapper">
+            <div data-w-id="17a6340c-761b-7fc0-e914-c76287f98ca6" data-animation="default" data-collapse="medium"
+                data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+                <div class="nav_wrap" style="display: flex; align-items: center;">
+                    <nav class="nav_menu w-nav-menu" style="display: flex; gap: 20px;">
+                        <a href="/about" class="nav_link w-nav-link">About</a>
+                        <a href="/stats" class="nav_link w-nav-link">Stats</a>
+                        <a href="/predictions" class="nav_link w-nav-link">Predictions</a>
+                        <a href="/news" class="nav_link w-nav-link">News</a>
+                        <a href="/contact" class="nav_link w-nav-link">Contact</a>
+                    </nav>
+                    <div class="nav_button w-nav-button">
+                        <div class="nav_button-inner">
+                            <div class="nav_button-line is-top"></div>
+                            <div class="nav_button-line is-middle"></div>
+                            <div class="nav_button-line is-bottom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main-wrapper">
+            <section class="section is-video">
+                <div class="container-large">
+                    <div class="flex-center">
+                        <div class="max-width-700">
+                            <h1 class="heading-style-h1"><span data-w-id="256a64f6-f429-7765-d6fb-826f628ae915"
+                                    style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                    class="is-word is-1">Predict</span> <span
+                                    data-w-id="9d3ddad4-712e-c16c-7560-87756315819c"
+                                    style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                    class="is-word is-2">NBA</span> <span
+                                    data-w-id="af0f8885-ee6b-84ff-4a36-f2fd2ec4124f"
+                                    style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                    class="is-word is-3">Statistics</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div data-w-id="cf27677c-e3d0-62bd-4d63-f46756324b46" class="video_wall">
+                    <div class="video_section">
+                        <div class="video_wrap">
+                            <div data-w-id="805de4e7-667f-95f8-2868-3a3b4fbdd528"
+                                style="-webkit-transform:translate3d(0, 15%, 0) scale3d(3, 3, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15%, 0) scale3d(3, 3, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15%, 0) scale3d(3, 3, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15%, 0) scale3d(3, 3, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                class="video_box"><a data-w-id="805de4e7-667f-95f8-2868-3a3b4fbdd529" href="#intro"
+                                    class="video_btn w-inline-block">
+                                    <p class="heading-style-h3">Learn more</p>
+                                    <div class="video_play"><img
+                                            src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9ff_icon-arrow-down.svg"
+                                            loading="lazy" alt="" class="icon-16" /></div>
+                                </a>
+                                <div class="video_title">
+                                    <p class="heading-style-h2 is-title"><span
+                                            data-w-id="499d3b83-ae7b-a8b5-0eaf-abde592d3be3"
+                                            style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                            class="is-word is-1">Elevate</span> <span
+                                            data-w-id="7d330f68-f229-ae7c-c9da-be61c38d44a3"
+                                            style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                            class="is-word is-2">your</span> <span
+                                            data-w-id="49273ef5-6d27-c105-5fc8-92c5b230491d"
+                                            style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                            class="is-word is-3">Analysis</span></p>
+                                </div>
+                                <div class="video_bg">
+                                    <div class="video_bg_overlay"></div>
+                                    <div class="tenor-gif-embed" data-postid="692501932652649347" data-share-method="host" data-aspect-ratio="1.76984" data-width="100%">
+                                        <a href="https://tenor.com/view/lebron-james-dwayne-wade-heat-basketball-dunk-gif-692501932652649347">Lebron James Dwayne Wade GIF</a>
+                                        from <a href="https://tenor.com/search/lebron+james-gifs">Lebron James GIFs</a>
+                                    </div>
+                                    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                                    
+                                    <img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif"
+                                        loading="lazy" sizes="100vw"
+                                        srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif 823w"
+                                        alt="" class="img-cover hide" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section background-color-white">
+                <div class="container-large">
+                    <div data-w-id="f34fdec2-7330-0cd6-5ea1-badf54d8c9e2" class="wrap_flex is-align-top">
+                        <div class="max-width-440">
+                            <h2 class="heading-style-h2"><span
+                                    style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                    class="is-word is-1">Let's</span> <span
+                                    style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                    class="is-word is-2">Stay</span> <span
+                                    style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                    class="is-word is-3">Connected</span> <span
+                                    style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                    class="is-word is-4">!</span></h2>
+                        </div>
+                        <div class="max-width-440 is-full-responsive">
+                            <div class="margin-bottom-8">
+                                <div class="text-color-darkgrey">
+                                    <p style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="text-size-medium">Message me! </p>
+                                </div>
+                            </div>
+                            <div class="email-form_wrap w-form">
+                                <form id="wf-form-Subscribe-Form" name="wf-form-Subscribe-Form"
+                                    data-name="Subscribe Form" method="get" class="email_form"
+                                    data-wf-page-id="679c69991f44d535f900b9d5"
+                                    data-wf-element-id="20844860-179d-c2b4-f707-f76c90f6c7a4">
+                                    <div class="form-field-wrapper"><input class="form-input is-green w-input"
+                                            maxlength="256" name="email" data-name="email"
+                                            style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                            placeholder="Enter your email" type="email" id="email-2" required="" />
+                                    </div><input type="submit" data-wait="Please wait..."
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="button w-button" value="Subscribe" />
+                                </form>
+                                <div class="form-success w-form-done">
+                                    <div>Thank you! Your submission has been received!</div>
+                                </div>
+                                <div class="form-error w-form-fail">
+                                    <div>Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="intro" class="section background-color-black">
+                <div class="container-large">
+                    <div class="margin-bottom-48">
+                        <div data-w-id="0e2ba735-0b1e-eb7d-5169-048742268950" class="wrap_flex is-align-bottom">
+                            <div class="max-width-440">
+                                <h2 class="heading-style-h2"><span
+                                        style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="is-word is-1">Top</span> <span
+                                        style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="is-word is-2">Picks</span> <span
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="is-word is-3">Today</span> <span
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="is-word is-5">!</span> <span
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="is-word is-6"></span></h2>
+                            </div><a data-w-id="0b3b7d24-f975-d9ef-d93e-6f41868a416a"
+                                style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                href="#" class="button w-inline-block">
+                                <div class="z-index-2">
+                                    <p>Explore More Picks!</p>
+                                </div>
+                                <div class="z-index-2"><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f3_icon-arrow-light.svg"
+                                        loading="lazy" alt="" class="icon-16" /></div>
+                            </a>
+                        </div>
+                    </div>
+                    <ul role="list" class="player_list">
+                        <li data-w-id="20bd0fcf-0ffa-fb32-1801-11b2da2948a3" class="player_item">
+                            <div class="margin-bottom-40">
+                                <div class="player_visual shadow-card"><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba01_tennis-image-01%402x.avif"
+                                        loading="lazy" alt=""
+                                        sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 40vw"
+                                        srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba01_tennis-image-01%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba01_tennis-image-01%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba01_tennis-image-01%402x.avif 1060w"
+                                        class="img-cover" /></div>
+                            </div>
+                            <div class="max-width-440">
+                                <div class="w-layout-vflex">
+                                    <div class="margin-bottom-16">
+                                        <p class="text-size-eyebrow">Boston, MA</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="heading-style-h2">Jayson Tatum</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="text-size-medium">With a current high of 10 rebounds per game ...</p>
+                                    </div><a href="/about-us" class="button is-secondary w-inline-block">
+                                        <p>Learn More</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-w-id="20bd0fcf-0ffa-fb32-1801-11b2da2948a3" class="player_item">
+                            <div class="margin-bottom-40">
+                                <div class="player_visual shadow-card"><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba08_tennis-image-04%402x.avif"
+                                        loading="lazy" alt=""
+                                        sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 40vw"
+                                        srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba08_tennis-image-04%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba08_tennis-image-04%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba08_tennis-image-04%402x.avif 1060w"
+                                        class="img-cover" /></div>
+                            </div>
+                            <div class="max-width-440">
+                                <div class="w-layout-vflex">
+                                    <div class="margin-bottom-16">
+                                        <p class="text-size-eyebrow">Golden State, CA</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="heading-style-h2">Steph Curry</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="text-size-medium">With a minimum of 6 three pointers made ...</p>
+                                    </div><a href="/about-us" class="button is-secondary w-inline-block">
+                                        <p>Learn More</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-w-id="20bd0fcf-0ffa-fb32-1801-11b2da2948a3" class="player_item">
+                            <div class="margin-bottom-40">
+                                <div class="player_visual shadow-card"><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0b_tennis-image-07%402x.avif"
+                                        loading="lazy" alt=""
+                                        sizes="(max-width: 767px) 90vw, (max-width: 991px) 46vw, 40vw"
+                                        srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0b_tennis-image-07%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0b_tennis-image-07%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0b_tennis-image-07%402x.avif 1060w"
+                                        class="img-cover" /></div>
+                            </div>
+                            <div class="max-width-440">
+                                <div class="w-layout-vflex">
+                                    <div class="margin-bottom-16">
+                                        <p class="text-size-eyebrow">Miami, FL</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="heading-style-h2">Martina Rojas</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="text-size-medium">A former collegiate athlete with 15 years of
+                                            coaching experience, Martina is praised for her dynamic coaching style and
+                                            her success in training elite junior players.</p>
+                                    </div><a href="/about-us" class="button is-secondary w-inline-block">
+                                        <p>Learn More</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li data-w-id="20bd0fcf-0ffa-fb32-1801-11b2da2948a3" class="player_item">
+                            <div class="margin-bottom-40">
+                                <div class="player_visual shadow-card"><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba00_tennis-image-03%402x.avif"
+                                        loading="lazy" alt=""
+                                        sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, 40vw"
+                                        srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba00_tennis-image-03%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba00_tennis-image-03%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba00_tennis-image-03%402x.avif 1060w"
+                                        class="img-cover" /></div>
+                            </div>
+                            <div class="max-width-440">
+                                <div class="w-layout-vflex">
+                                    <div class="margin-bottom-16">
+                                        <p class="text-size-eyebrow">Chicago, IL</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="heading-style-h2">Kevin O&#x27;Connor</p>
+                                    </div>
+                                    <div class="margin-bottom-24">
+                                        <p class="text-size-medium">With 20 years of experience, Kevin’s passion for
+                                            tennis has made him a favorite among players seeking to improve both their
+                                            technical skills and strategic thinking.</p>
+                                    </div><a href="/about-us" class="button is-secondary w-inline-block">
+                                        <p>Learn More</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <section class="section is-location">
+                    <div id="nba-root"></div>
+                </section>
+            </section>
+
+            <!-- START NEW REACT THING  -->
+            <section id="intro" class="section background-color-white">
+                <div class="container-large">
+                    <div class="margin-bottom-48">
+                        <div data-w-id="0e2ba735-0b1e-eb7d-5169-048742268950" class="wrap_flex is-align-bottom">
+                            <div class="max-width-440">
+                                <h2 class="heading-style-h2"><span
+                                        style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="is-word is-1">TODAY'S</span> <span
+                                        style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="is-word is-2">NBA</span> <span
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="is-word is-3">SCHEDULE</span> <span
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="is-word is-5">!</span> <span
+                                        style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                        class="is-word is-6"></span></h2>
+                            </div><a data-w-id="0b3b7d24-f975-d9ef-d93e-6f41868a416a"
+                                style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                href="#" class="button w-inline-block">
+                                <div class="z-index-2">
+                                    <p>Explore More Teams</p>
+                                </div>
+                                <div class="z-index-2"><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f3_icon-arrow-light.svg"
+                                        loading="lazy" alt="" class="icon-16" /></div>
+                            </a>
+                        </div>
+                    </div>
+                    <ul id="nbaTeamsList" role="list" class="player_list"></ul>
+                </div>
+                <section class="section is-location">
+                    <div id="nba-root"></div>
+                </section>
+            </section>
+
+            <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+            <script>
+                async function fetchNBAStats() {
+                    try {
+                        const response = await axios.get("http://localhost:3001/nba-stats");
+                        const data = response.data;
+            
+                        const gamesWithActivePlayers = data.games.map((game) => ({
+                            ...game,
+                            homeTeamActivePlayers: game.homeTeam.players.filter(
+                                (player) => player.rosterStatus === "Active"
+                            ),
+                            awayTeamActivePlayers: game.awayTeam.players.filter(
+                                (player) => player.rosterStatus === "Active"
+                            ),
+                        }));
+                        debugger;
+                        if (gamesWithActivePlayers.length > 0) {
+                            updateTeamsUI(gamesWithActivePlayers);
+                        }
+                    } catch (error) {
+                        console.error("Error fetching NBA stats:", error);
+                    }
+                }
+            
+                function updateTeamsUI(games) {
+                    const nba_teams_logos = {
+                        "ATL": {name: "Hawks", logo : "https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg"},
+                        "BOS": {name: "Celtics",logo: "https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"},
+                        "BKN": {name: "Nets", logo: "https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"},
+                        "CHA": {name: "Hornets", logo: "https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg"},
+                        "CHI": {name: "Bulls", logo: "https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg"},
+                        "CLE": {name: "Cavaliers", logo:"https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg"},
+                        "DAL": {name:"Mavericks", logo:"https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"},
+                        "DEN": {name:"Nuggets", logo:"https://cdn.nba.com/logos/nba/1610612743/global/L/logo.svg"},
+                        "DET": {name:"Pistons", logo:"https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg"},
+                        "GSW": {name:"Warriors", logo:"https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"},
+                        "HOU": {name:"Rockets", logo:"https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg"},
+                        "IND": {name:"Pacers", logo:"https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg"},
+                        "LAC": {name:"Clippers", logo:"https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"},
+                        "LAL": {name:"Lakers", logo:"https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"},
+                        "MEM": {name:"Grizzlies", logo:"https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"},
+                        "MIA": {name:"Heat", logo:"https://cdn.nba.com/logos/nba/1610612748/global/L/logo.svg"},
+                        "MIL": {name:"Bucks", logo:"https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"},
+                        "MIN": {name:"Timberwolves", logo:"https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg"},
+                        "NOP": {name:"Pelicans", logo:"https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg"},
+                        "NYK": {name:"Knicks", logo:"https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"},
+                        "OKC": {name:"Thunder", logo:"https://cdn.nba.com/logos/nba/1610612760/global/L/logo.svg"},
+                        "ORL": {name:"Magic", logo:"https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg"},
+                        "PHI": {name:"76ers", logo:"https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"},
+                        "PHX": {name:"Suns", logo:"https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg"},
+                        "POR": {name:"Trail Blazers", logo:"https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg"},
+                        "SAC": {name:"Kings", logo:"https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg"},
+                        "SAS": {name:"Spurs", logo:"https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"},
+                        "TOR": {name:"Raptors", logo:"https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"},
+                        "UTA": {name:"Jazz", logo:"https://cdn.nba.com/logos/nba/1610612762/global/L/logo.svg"},
+                        "WAS": {name:"Wizards", logo:"https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg"}
+                    }
+                    const teamsList = document.getElementById("nbaTeamsList");
+                    teamsList.innerHTML = ""; // Clear previous data
+                    debugger;
+
+                    games.forEach((game) => {
+                        debugger;
+                        const homeTeam = game.homeTeam;
+                        const homeTeamName = nba_teams_logos[homeTeam.teamAbbreviation].name;
+                        const homeTeamLogo = nba_teams_logos[homeTeam.teamAbbreviation].logo;
+
+                        const awayTeam = game.awayTeam;
+                        const awayTeamName = nba_teams_logos[awayTeam.teamAbbreviation].name;
+                        const awayTeamLogo = nba_teams_logos[awayTeam.teamAbbreviation].logo;
+
+                        // Create home team item
+                        const homeTeamItem = document.createElement("li");
+                        homeTeamItem.classList.add("player_item");
+                        homeTeamItem.innerHTML = `
+                            <div class="w-layout-vflex-team">
+                                <div class="team_visual shadow-card">
+                                    <img src="${homeTeamLogo}" alt="${homeTeamName} logo" />
+                                </div>
+                                <div class="margin-bottom-16">
+                                    <p class="text-size-eyebrow">${homeTeam.teamAbbreviation}</p>
+                                </div>
+                                <div class="margin-bottom-24">
+                                    <p class="heading-style-h2">${homeTeamName}</p>
+                                </div>
+                                <a href="/about-us" class="button is-secondary w-inline-block">
+                                    <p>TEAM STATS</p>
+                                </a>
+                            </div>
+                        `;
+                        teamsList.appendChild(homeTeamItem);
+
+                        // Create away team item
+                        const awayTeamItem = document.createElement("li");
+                        awayTeamItem.classList.add("player_item");
+                        awayTeamItem.innerHTML = `
+                            <div class="w-layout-vflex-team">
+                                <div class="team_visual shadow-card">
+                                    <img src="${awayTeamLogo}" alt="${awayTeamName} logo" />
+                                </div>
+                                <div class="margin-bottom-16">
+                                    <p class="text-size-eyebrow">${awayTeam.teamAbbreviation}</p>
+                                </div>
+                                <div class="margin-bottom-24">
+                                    <p class="heading-style-h2">${awayTeamName}</p>
+                                </div>
+                                <a href="/about-us" class="button is-secondary w-inline-block">
+                                    <p>TEAM STATS</p>
+                                </a>
+                            </div>
+                        `;
+                        teamsList.appendChild(awayTeamItem);
+                    });
+                }
+
+                document.addEventListener("DOMContentLoaded", fetchNBAStats);
+            </script>
+            
+
+            <!-- END REACT THING  -->
+   
+            <!-- <section class="section is-location">
+                <div data-w-id="4654afeb-bf30-8433-b76d-671c51894643" class="parallax-wrap"><img
+                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba14_tennis-location-background%402x.avif"
+                        loading="lazy" sizes="100vw"
+                        srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba14_tennis-location-background%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba14_tennis-location-background%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba14_tennis-location-background%402x.avif 1080w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba14_tennis-location-background%402x.avif 2880w"
+                        alt="" class="parallax-img" />
+                    <div class="parallax-overlay"></div>
+                </div>
+                <div class="container-large">
+                    <div class="locations_wrap">
+                        <div data-w-id="b2d90520-e10a-4f72-0cf3-af4a01a8b8ba" class="w-layout-vflex max-width-440">
+                            <div class="margin-bottom-16">
+                                <h2><span
+                                        style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="is-word is-1">Our</span> <span
+                                        style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                        class="is-word is-2">Locations</span></h2>
+                            </div>
+                            <div class="text-color-lightgrey">
+                                <p style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                    class="text-size-medium">Ready to take your tennis game to the next level?
+                                    Experience world-class coaching, state-of-the-art facilities, and a vibrant tennis
+                                    community. Enroll today and become part of a legacy of excellence.</p>
+                            </div>
+                            <div class="margin-top-32"><a
+                                    style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                    href="/contact" class="button w-inline-block">
+                                    <p>Start today</p><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f3_icon-arrow-light.svg"
+                                        loading="lazy" alt="" class="icon-16" />
+                                </a></div>
+                        </div>
+                        <ul role="list" class="locations_list">
+                            <li class="locations_item">
+                                <div class="margin-bottom-20">
+                                    <div class="locations_visual"><img
+                                            src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba11_tennis-location-02%402x.avif"
+                                            loading="lazy" alt=""
+                                            sizes="(max-width: 767px) 81vw, (max-width: 991px) 44vw, 20vw"
+                                            srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba11_tennis-location-02%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba11_tennis-location-02%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba11_tennis-location-02%402x.avif 823w"
+                                            class="img-cover" /></div>
+                                </div>
+                                <div>
+                                    <div class="margin-bottom-8">
+                                        <p class="heading-style-h4">Grandview Park Tennis Center</p>
+                                    </div>
+                                    <div class="text-color-lightgrey">
+                                        <p class="text-size-eyebrow">123 Maplewood Drive, Riverton</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="locations_item">
+                                <div class="margin-bottom-20">
+                                    <div class="locations_visual"><img
+                                            src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba10_tennis-location-03%402x.avif"
+                                            loading="lazy" alt=""
+                                            sizes="(max-width: 767px) 81vw, (max-width: 991px) 44vw, 20vw"
+                                            srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba10_tennis-location-03%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba10_tennis-location-03%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba10_tennis-location-03%402x.avif 823w"
+                                            class="img-cover" /></div>
+                                </div>
+                                <div>
+                                    <div class="margin-bottom-8">
+                                        <p class="heading-style-h4">Oakridge Sports Complex</p>
+                                    </div>
+                                    <div class="text-color-lightgrey">
+                                        <p class="text-size-eyebrow">456 Oakridge Lane, Brookfield</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="locations_item">
+                                <div class="margin-bottom-20">
+                                    <div class="locations_visual"><img
+                                            src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif"
+                                            loading="lazy" alt=""
+                                            sizes="(max-width: 767px) 81vw, (max-width: 991px) 44vw, 20vw"
+                                            srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba15_tennis-location-03%402x.avif 823w"
+                                            class="img-cover" /></div>
+                                </div>
+                                <div>
+                                    <div class="margin-bottom-8">
+                                        <p class="heading-style-h4">Riverview Tennis Academy</p>
+                                    </div>
+                                    <div class="text-color-lightgrey">
+                                        <p class="text-size-eyebrow">789 Pinecrest Avenue, Hillside</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="locations_item">
+                                <div class="margin-bottom-20">
+                                    <div class="locations_visual"><img
+                                            src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif"
+                                            loading="lazy" alt=""
+                                            sizes="(max-width: 767px) 81vw, (max-width: 991px) 44vw, 20vw"
+                                            srcset="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 500w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 800w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 1080w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 1600w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 2000w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 2600w, https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900ba0c_tennis-image-08%402x.avif 2880w"
+                                            class="img-cover" /></div>
+                                </div>
+                                <div>
+                                    <div class="margin-bottom-8">
+                                        <p class="heading-style-h4">Pinecrest Court Club</p>
+                                    </div>
+                                    <div class="text-color-lightgrey">
+                                        <p class="text-size-eyebrow">101 Grandview Road, Lakeshore</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section> -->
+            <section class="section background-color-black">
+                <div class="container-large">
+                    <div data-w-id="39c41625-96bb-d3d0-8826-2fcb008cc178" class="faqs_wrap">
+                        <div class="w-layout-vflex max-width-440">
+                            <div class="margin-bottom-16">
+                                <h2 style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                                    class="is-word is-1">FaQs</h2>
+                            </div>
+                            <div class="text-color-lightgrey">
+                                <p style="-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0"
+                                    class="text-size-medium">Can’t find the answer you’re looking for? Please chat to
+                                    our friendly team or write us an email at <a href="mailto:info@help.com"
+                                        class="text-style-link">info@elysiantennis.com</a></p>
+                            </div>
+                        </div>
+                        <ul style="opacity:0;-webkit-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0.5em, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                            role="list" class="faqs_list">
+                            <li data-w-id="ab1a3d19-977b-898b-3bc1-40074489c468" class="faqs_item">
+                                <div class="faqs_head">
+                                    <p class="text-size-medium text-weight-medium">What types of tennis programs do you
+                                        offer?</p><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f4_faq-arrow.svg"
+                                        loading="lazy" alt="" class="icon-24" />
+                                </div>
+                                <div class="faqs_body">
+                                    <div class="margin-top-8">
+                                        <div class="text-color-lightgrey">
+                                            <div class="text-rich-text w-richtext">
+                                                <p>We offer programs for all ages and skill levels, including beginner
+                                                    classes, competitive training, and private lessons.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-w-id="ab1a3d19-977b-898b-3bc1-40074489c468" class="faqs_item">
+                                <div class="faqs_head">
+                                    <p class="text-size-medium text-weight-medium">Do you provide equipment rentals?</p>
+                                    <img src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f4_faq-arrow.svg"
+                                        loading="lazy" alt="" class="icon-24" />
+                                </div>
+                                <div class="faqs_body">
+                                    <div class="margin-top-8">
+                                        <div class="text-color-lightgrey">
+                                            <div class="text-rich-text w-richtext">
+                                                <p>Yes, we offer racket and ball rentals, as well as a pro shop for
+                                                    purchasing gear.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-w-id="ab1a3d19-977b-898b-3bc1-40074489c468" class="faqs_item">
+                                <div class="faqs_head">
+                                    <p class="text-size-medium text-weight-medium">Can I book a court in advance?</p>
+                                    <img src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f4_faq-arrow.svg"
+                                        loading="lazy" alt="" class="icon-24" />
+                                </div>
+                                <div class="faqs_body">
+                                    <div class="margin-top-8">
+                                        <div class="text-color-lightgrey">
+                                            <div class="text-rich-text w-richtext">
+                                                <p>Absolutely! Courts can be reserved online or via phone up to two
+                                                    weeks in advance.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-w-id="ab1a3d19-977b-898b-3bc1-40074489c468" class="faqs_item">
+                                <div class="faqs_head">
+                                    <p class="text-size-medium text-weight-medium">Are your facilities open year-round?
+                                    </p><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f4_faq-arrow.svg"
+                                        loading="lazy" alt="" class="icon-24" />
+                                </div>
+                                <div class="faqs_body">
+                                    <div class="margin-top-8">
+                                        <div class="text-color-lightgrey">
+                                            <div class="text-rich-text w-richtext">
+                                                <p>Yes, our indoor and outdoor courts are open year-round, weather
+                                                    permitting for outdoor courts.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-w-id="ab1a3d19-977b-898b-3bc1-40074489c468" class="faqs_item">
+                                <div class="faqs_head">
+                                    <p class="text-size-medium text-weight-medium">Do you offer group lessons or
+                                        clinics?</p><img
+                                        src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f4_faq-arrow.svg"
+                                        loading="lazy" alt="" class="icon-24" />
+                                </div>
+                                <div class="faqs_body">
+                                    <div class="margin-top-8">
+                                        <div class="text-color-lightgrey">
+                                            <div class="text-rich-text w-richtext">
+                                                <p>Yes, we have group lessons and clinics for all levels, ranging from
+                                                    beginner to advanced players.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li data-w-id="ab1a3d19-977b-898b-3bc1-40074489c468" class="faqs_item">
+                                <div class="faqs_head">
+                                    <p class="text-size-medium text-weight-medium">How do I sign up for membership?</p>
+                                    <img src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/679c69991f44d535f900b9f4_faq-arrow.svg"
+                                        loading="lazy" alt="" class="icon-24" />
+                                </div>
+                                <div class="faqs_body">
+                                    <div class="margin-top-8">
+                                        <div class="text-color-lightgrey">
+                                            <div class="text-rich-text w-richtext">
+                                                <p>You can sign up for membership on our website or visit our front desk
+                                                    for more details.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="section is-footer">
+            <div class="container-large">
+                <div class="margin-bottom-64">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=679c69981f44d535f900b987"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.prod.website-files.com/679c69981f44d535f900b987/js/webflow.2cdf8ff7.2f6f1ea9dd5e0ddc.js"
+        type="text/javascript"></script>
+</body>
+
+</html>
