@@ -11,7 +11,7 @@ app.use(cors());
 // Proxy endpoint to fetch NBA stats
 app.get('/nba-stats', async (req, res) => {
   try {
-    const response = await axios.get('https://stats.nba.com/js/data/leaders/00_daily_lineups_20250204.json');
+    const response = await axios.get('https://stats.nba.com/js/data/leaders/00_daily_lineups_20250304.json');
     res.json(response.data);  // Forward the response from the NBA API to the frontend
   } catch (error) {
     console.error('Error fetching NBA data:', error);
